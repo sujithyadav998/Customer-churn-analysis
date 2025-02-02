@@ -1,0 +1,20 @@
+CustomerID	Age	Gender	Tenure	Usage Frequency	Support Calls	Payment Delay	Subscription Type	Contract Length	Total Spend	Last Interaction
+1	22	Female	25	14	4	27	Basic	Monthly	598	9
+2	41	Female	28	28	7	13	Standard	Monthly	584	20
+3	47	Male	27	10	2	29	Premium	Annual	757	21
+4	35	Male	9	12	5	17	Premium	Quarterly	232	18
+5	53	Female	58	24	9	2	Standard	Annual	533	18
+6	30	Male	41	14	10	10	Premium	Monthly	500	29
+7	47	Female	37	15	9	28	Basic	Quarterly	574	14
+8	54	Female	36	11	0	18	Standard	Monthly	323	16
+9	36	Male	20	5	10	8	Basic	Monthly	687	8
+10	65	Male	8	4	2	23	Basic	Annual	995	10
+11	46	Female	42	27	9	21	Standard	Annual	526	3
+12	56	Male	13	23	5	14	Basic	Quarterly	187	1
+13	31	Male	2	7	0	25	Premium	Quarterly	758	24
+14	42	Male	46	27	5	8	Premium	Quarterly	438	30
+15	59	Male	21	17	2	14	Premium	Quarterly	663	15
+16	35	Female	1	3	7	3	Basic	Monthly	677	25
+17	29	Male	54	3	6	2	Basic	Monthly	636	22
+18	45	Male	9	30	4	25	Basic	Annual	127	18
+19	65	Female	40	2	1	6	Premium	Annual	396	21
