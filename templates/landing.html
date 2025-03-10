@@ -42,6 +42,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ml-analytics">ML Analytics</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -125,6 +128,117 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary w-100">Send Message</button>
                             </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ML Analytics Section -->
+    <section id="ml-analytics" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Machine Learning Analytics Results</h2>
+            
+            <!-- Model Performance Cards -->
+            <div class="row mb-5">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Best Model</h5>
+                            <h3 class="text-primary">Random Forest</h3>
+                            <p class="display-4 mb-0">97.40%</p>
+                            <p class="text-muted">Accuracy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Model Comparison</h5>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Model</th>
+                                            <th>Accuracy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Random Forest</td>
+                                            <td>97.40%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>XGBoost</td>
+                                            <td>97.38%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gradient Boosting</td>
+                                            <td>97.24%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Decision Tree</td>
+                                            <td>94.49%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Logistic Regression</td>
+                                            <td>84.44%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature Importance -->
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mb-4">Feature Importance Analysis</h5>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Feature</th>
+                                            <th>Importance Score</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Support Calls</td>
+                                            <td>33.58%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Total Spend</td>
+                                            <td>25.28%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Age</td>
+                                            <td>18.11%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Payment Delay</td>
+                                            <td>15.83%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tenure</td>
+                                            <td>2.75%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Last Interaction</td>
+                                            <td>2.49%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Usage Frequency</td>
+                                            <td>1.95%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
